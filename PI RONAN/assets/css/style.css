@@ -261,6 +261,7 @@ p{
 .col-4{
     flex-basis: 25%;
     min-width: 200px;
+    max-width: 280px;
     padding: 10px;
     margin-bottom: 50px;
     transition: transform 0.3s;
@@ -563,6 +564,7 @@ ul{
     margin-left: 10px;
     cursor: pointer;
     border-radius: 50%;
+    color: var(--cor-padrao);
 }
 
 .paginacao span:hover{
